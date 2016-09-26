@@ -1061,4 +1061,8 @@ public class DatePickerDialog extends DialogFragment implements
                     mCalendar.get(Calendar.MONTH), mCalendar.get(Calendar.DAY_OF_MONTH));
         }
     }
+                
+    public TextView getDayOfWeekView() {
+        return this.mDayOfWeekView;
+    }
 }
